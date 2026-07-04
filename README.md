@@ -83,8 +83,8 @@ Full bill of materials, wiring, and assembly notes: [`hardware/README.md`](hardw
 
 ## Project materials
 
+- [Full dissertation (BSc, PDF)](docs/dissertation.pdf)
 - [Research poster (A3, PDF)](docs/poster.pdf)
-- Dissertation PDF — *to be added*
 
 ## Research ethics & data
 
