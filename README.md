@@ -8,9 +8,10 @@ a lamp-head "look" from a servo gimbal mounted on a robotic arm — to gently re
 attention. A within-subjects user study (N = 12) compared the active robot condition
 against a passive on-screen-only baseline.
 
-<!-- TODO: add a demo GIF here — this is the single most important asset for reviewers.
-     Save it as docs/images/demo.gif and uncomment the line below. -->
-<!-- ![Demo](docs/images/demo.gif) -->
+![Demo](docs/images/demo.gif)
+
+*18-second clip at 3× speed ([full-resolution MP4](docs/images/demo.mp4)). When the vision
+pipeline detects distraction, the lamp head turns toward the user as a non-verbal cue.*
 
 ## Key result
 
@@ -29,15 +30,7 @@ Full tables and figures are in [`analysis/`](analysis/).
 
 ## System overview
 
-<!-- TODO: add a system/architecture diagram at docs/architecture.png -->
-<!-- ![Architecture](docs/architecture.png) -->
-
-```
-Webcam ─▶ Laptop vision pipeline ──(TCP: G-code + gimbal cmds)──▶ Raspberry Pi 5 ─▶ Arm + gimbal servos
-          (MediaPipe BlazePose +                                  (stepper drivers,
-           YOLOv11n phone detection,                               hardware PWM servos)
-           distraction state machine)
-```
+![System architecture](docs/architecture.svg)
 
 - **Laptop** captures the webcam feed, runs pose + phone detection, decides when the user
   is distracted, and sends robot commands to the Pi over TCP. See [`src/laptop/`](src/laptop/).
@@ -87,6 +80,11 @@ Full bill of materials, wiring, and assembly notes: [`hardware/README.md`](hardw
 - **Ultralytics YOLOv11n** — pre-trained "cell phone" class
 - **Freenove Robot Arm Kit** — manufacturer firmware skeleton, adapted
 - **2-axis gimbal STL** — https://grabcad.com/library/gimbal-2-axis-with-sg90-mini-servo-3d-printing-1
+
+## Project materials
+
+- [Research poster (A3, PDF)](docs/poster.pdf)
+- Dissertation PDF — *to be added*
 
 ## Research ethics & data
 

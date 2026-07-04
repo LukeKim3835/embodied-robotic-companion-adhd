@@ -8,10 +8,10 @@ Holm–Bonferroni correction across the seven primary outcomes.
 
 ```bash
 pip install -r ../requirements.txt
-python stats.py --logs <path-to-session-logs>
+python sessions_analysis.py --logs <path-to-session-logs>
 ```
 
-> `stats.py` regenerates the outputs below from the raw session logs. The raw logs are
+> `sessions_analysis.py` regenerates the outputs below from the raw session logs. The raw logs are
 > **not** included in this repository (human-subjects data); only the de-identified,
 > aggregated outputs in [`data/`](data/) are shared.
 
