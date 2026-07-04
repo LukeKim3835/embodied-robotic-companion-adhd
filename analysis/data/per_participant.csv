@@ -1,0 +1,13 @@
+participant_id,condition,code_version,task_markers_ok,window_truncated,duration_s,n_frames,pct_focused,pct_warning,n_warnings,n_phone_warnings,n_looking_away_warnings,n_long_warnings,total_warning_s,mean_recovery_s,robot_interventions
+P06,robot_on,integrated_monitor_robot_v3.2,False,False,420.0,3952,95.19,1.87,3,1,2,0,7.9,2.63,3
+P07,robot_off,integrated_monitor_robot_v3.2,True,False,420.0,9927,76.51,19.28,9,3,6,2,81.16,9.02,0
+P08,robot_on,integrated_monitor_robot_v3.2,True,False,420.0,9203,93.32,4.11,5,2,3,0,17.17,3.43,5
+P09,robot_off,integrated_monitor_robot_v3.2,True,False,420.0,9849,77.93,18.01,8,6,2,4,76.02,9.5,0
+P10,robot_on,integrated_monitor_robot_v3.2,True,False,420.0,10247,92.59,5.64,4,2,1,1,23.72,5.93,4
+P11,robot_off,integrated_monitor_robot_v3.2,True,False,420.0,9660,76.82,20.36,9,6,3,5,84.39,9.38,0
+P12,robot_on,integrated_monitor_robot_v3.2,True,False,420.0,9587,91.18,5.35,7,3,4,1,22.52,3.22,7
+P13,robot_off,integrated_monitor_robot_v3.2,True,False,420.0,9873,97.51,1.57,6,5,1,0,6.47,1.08,0
+P14,robot_on,integrated_monitor_robot_v3.2,True,False,420.0,10076,92.1,4.6,7,2,5,0,19.65,2.81,7
+P15,robot_off,integrated_monitor_robot_v3.2,True,False,420.0,9160,67.27,26.88,18,10,8,5,112.82,6.27,0
+P16,robot_on,integrated_monitor_robot_v3.2,True,False,420.0,9767,86.93,9.28,10,3,7,0,38.74,3.87,10
+P17,robot_off,integrated_monitor_robot_v3.2,True,False,420.0,9746,59.83,37.16,24,20,4,5,155.27,6.47,0

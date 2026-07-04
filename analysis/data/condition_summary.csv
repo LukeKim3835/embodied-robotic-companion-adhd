@@ -1,0 +1,17 @@
+condition,measure,n,mean,sd,median,min,max
+robot_off,pct_focused,6,75.978,12.689,76.665,59.83,97.51
+robot_off,pct_warning,6,20.543,11.699,19.82,1.57,37.16
+robot_off,total_warning_s,6,86.022,48.925,82.775,6.47,155.27
+robot_off,n_warnings,6,12.333,7.062,9.0,6.0,24.0
+robot_off,mean_recovery_s,6,6.953,3.22,7.745,1.08,9.5
+robot_off,n_phone_warnings,6,8.333,6.154,6.0,3.0,20.0
+robot_off,n_looking_away_warnings,6,4.0,2.608,3.5,1.0,8.0
+robot_off,n_long_warnings,6,3.5,2.074,4.5,0.0,5.0
+robot_on,pct_focused,6,91.885,2.778,92.345,86.93,95.19
+robot_on,pct_warning,6,5.142,2.428,4.975,1.87,9.28
+robot_on,total_warning_s,6,21.617,10.102,21.085,7.9,38.74
+robot_on,n_warnings,6,6.0,2.53,6.0,3.0,10.0
+robot_on,mean_recovery_s,6,3.648,1.202,3.325,2.63,5.93
+robot_on,n_phone_warnings,6,2.167,0.753,2.0,1.0,3.0
+robot_on,n_looking_away_warnings,6,3.667,2.16,3.5,1.0,7.0
+robot_on,n_long_warnings,6,0.333,0.516,0.0,0.0,1.0

@@ -1,0 +1,34 @@
+# ---- Human-subjects data: NEVER commit ----
+# Raw per-frame logs, events, questionnaires, consent, and any identifiable data.
+logs/
+questionnaire/
+questonnaire/
+*consent*
+*participant*.pdf
+# (analysis/data/ contains ONLY de-identified aggregates and IS tracked)
+
+# ---- Model weights (large; fetched/downloaded separately) ----
+models/
+*.task
+*.pt
+*.onnx
+*.engine
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Misc ----
+*.log
+*.zip

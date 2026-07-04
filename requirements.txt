@@ -1,0 +1,14 @@
+# Laptop-side vision pipeline
+opencv-python>=4.8
+mediapipe>=0.10
+numpy>=1.24
+ultralytics>=8.3        # YOLOv11n; downloads yolo11n.pt on first run
+
+# Analysis
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.7
+tabulate>=0.9
+
+# Note: Raspberry Pi motor/servo dependencies (e.g. rpi-hardware-pwm, gpiozero)
+# are installed only on the Pi. See hardware/README.md.
