@@ -66,6 +66,8 @@ Pi using `--no-log` for a vision-only dev session.
 
 ## Hardware
 
+![The assembled lamp robot oriented toward the user during the proofreading task](docs/images/system_look.jpeg)
+
 - Laptop with webcam
 - Raspberry Pi 5 (2 GB), Raspberry Pi OS 64-bit
 - Freenove Robot Arm Kit (onboard A4988 stepper drivers)
